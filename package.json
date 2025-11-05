@@ -1,0 +1,30 @@
+{
+  "name": "example-custom-schema-unrepresentable",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swoogo/example-custom-schema-unrepresentable.git"
+  },
+  "author": "Milo Gertjejansen <milo@milogert.com> (https://milogert.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swoogo/example-custom-schema-unrepresentable/issues"
+  },
+  "homepage": "https://github.com/swoogo/example-custom-schema-unrepresentable#readme",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.62",
+    "ai": "^5.0.87",
+    "ts-node": "^10.9.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
