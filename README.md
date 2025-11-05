@@ -6,5 +6,5 @@ To run this project do...
 
 ```sh
 npm i
-npm run start
+OPENAI_API_KEY=<your-key> npm run start
 ```
